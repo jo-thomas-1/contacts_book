@@ -3,6 +3,8 @@ A basic contacts book program written in Python 3 that can read, write, update o
 
 GitHub repository link: https://github.com/jothomas1996/contacts_book.git
 
+Technology used: Python 3
+
 ## Contacts Structure
 
 - Name
@@ -45,8 +47,6 @@ GitHub repository link: https://github.com/jothomas1996/contacts_book.git
 	- Skype
 - Notes
 
-<hr>
-
 ## Features
 
 - Add new contact
@@ -56,9 +56,7 @@ GitHub repository link: https://github.com/jothomas1996/contacts_book.git
 - Add contacts to favorites list (maximum 5)
 - Add contacts to emergency list (maximum 5)
 
-<hr>
-
 ## Authors
 
-- @jothomas1996 - [Jo Thomas](https://github.com/jothomas1996)
-- @augustinpj - [Augustin P J](https://github.com/augustinpj)
+- Jo Thomas - [@jothomas1996](https://github.com/jothomas1996)
+- Augustin P J - [@augustinpj](https://github.com/augustinpj)
