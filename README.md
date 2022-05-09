@@ -55,6 +55,7 @@ Technology used: Python 3
 - Update contacts
 - Add contacts to favorites list (maximum 5)
 - Add contacts to emergency list (maximum 5)
+- Sort contacts in alphabetical order
 
 ## Authors
 
