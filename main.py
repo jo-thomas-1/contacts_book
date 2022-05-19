@@ -1,10 +1,24 @@
 import data
 
 def display(data):
-	print("===================== Contact List =====================")
-	for contact in data:
-		print("Name:", contact["name"]["first_name"], contact["name"]["middle_name"], contact["name"]["last_name"])
-		print("Phone:", contact["phone"]["personal"])
+	for i in range(len(data)):
+		print("Sl. No.: ", i + 1)
+		print("Name:", data[i]["name"]["first_name"], data[i]["name"]["middle_name"], data[i]["name"]["last_name"])
+		print("Phone:", data[i]["phone"]["personal"])
 		print("------------------------------------------------------")
 
-display(data.contacts)
+# main program
+
+while(True):
+	command = ""
+
+	print("=========================")
+	print("CONTACTS BOOK")
+	print("=========================")
+
+	command = input("Enter your command or type help to see list of available commands: ")
+
+	if command == "display contacts":
+		display(data.contacts)
+	elif command == "exit":
+		exit()

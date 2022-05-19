@@ -1,5 +1,5 @@
 contacts = [
-				{
+				{ # Augustin Pulavelil Joseph
 					"name": {
 						"name_preffix": "",
 						"first_name": "Augustin",
@@ -55,7 +55,7 @@ contacts = [
 					},
 					"notes": "Stay Safe"
 				},
-				{
+				{ # Joseph Pulavelil Augustin
 					"name": {
 						"name_preffix": "",
 						"first_name": "Joseph",
@@ -111,7 +111,7 @@ contacts = [
 					},
 					"notes": "Be Positive"
 				},
-				{
+				{ # Sofiya Pulavelil Joseph
 					"name": {
 						"name_preffix": "",
 						"first_name": "Sofiya",
@@ -167,7 +167,7 @@ contacts = [
 					},
 					"notes": "Love Eachother"
 				},
-				{
+				{ # Ajil Tom P
 					"name": {
 						"name_preffix": "",
 						"first_name": "Ajil",
@@ -223,7 +223,7 @@ contacts = [
 					},
 					"notes": "Live in Peace"
 				},
-				{
+				{ # AnuMol Tomy P
 					"name": {
 						"name_preffix": "",
 						"first_name": "AnuMol",
