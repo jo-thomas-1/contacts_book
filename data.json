@@ -18,12 +18,10 @@
 					{"name": "home", "mail": "augustinpj458@gmail.com"},
 					{"name": "work", "mail": "augustinpj458@gmail.com"}
 				],
-		"proffesion":{
-			"designation": "Student",
-			"department": "",
-			"company": ""
-		},
-		"address":[
+		"proffesion": [
+						{"name": "designation", "value": "Student"}
+					],
+		"address": [
 					{"name": "address_line_1", "value": "Pulavelil House"},
 					{"name": "city", "value": "Mannarkkad"},
 					{"name": "pin_code", "value": "678762"},
@@ -58,11 +56,9 @@
 					{"name": "personal", "mail": "augustinpj458@gmail.com"},
 					{"name": "home", "mail": "augustinpj458@gmail.com"}
 				],
-		"proffesion":{
-			"designation": "Agriculture",
-			"department": "",
-			"company": ""
-		},
+		"proffesion":[
+						{"name": "designation", "value": "Farmer"}
+					],
 		"address":[
 					{"name": "address_line_1", "value": "Pulavelil House"},
 					{"name": "city", "value": "Mannarkkad"},
@@ -95,11 +91,9 @@
 				],
 		"e_mail": [
 				],
-		"proffesion":{
-			"designation": "Student",
-			"department": "",
-			"company": ""
-		},
+		"proffesion":[
+						{"name": "designation", "value": "House wife"}
+					],
 		"address":[
 					{"name": "address_line_1", "value": "Pulavelil House"},
 					{"name": "city", "value": "Mannarkkad"},
