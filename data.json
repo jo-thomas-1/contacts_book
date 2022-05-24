@@ -8,51 +8,36 @@
 			"name_suffix": ""
 		},
 		"nickname": "Anson",
-		"phone": {
-			"personal": "9995842373",
-			"home": "9995842374",
-			"work": "",
-			"custom": ""
-		},
-		"e_mail": {
-			"personal": "augustinpj458@gmail.com",
-			"home": "",
-			"work": "",
-			"custom": ""
-		},
+		"phone": [
+					{"name": "personal", "number": "9995842373"},
+					{"name": "home", "number": "9747238825"},
+					{"name": "work", "number": "9995842374"}
+				],
+		"e_mail": [
+					{"name": "personal", "mail": "augustinpj458@gmail.com"},
+					{"name": "home", "mail": "augustinpj458@gmail.com"},
+					{"name": "work", "mail": "augustinpj458@gmail.com"}
+				],
 		"proffesion":{
 			"designation": "Student",
 			"department": "",
 			"company": ""
 		},
-		"address":{
-			"address_line_1": "Pulavelil House",
-			"address_line_2": "",
-			"city": "Mannarkkad",
-			"pin_code": "678762",
-			"state": "Kerala",
-			"country": "India"
-		},
-		"important_dates":{
-			"birthday": {
-				"day": 28,
-				"month": 4,
-				"year": 2003
-			},
-			"anniversary": {
-				"day": "",
-				"month": "",
-				"year": ""
-			},
-			"custom": ""
-		},
+		"address":[
+					{"name": "address_line_1", "value": "Pulavelil House"},
+					{"name": "city", "value": "Mannarkkad"},
+					{"name": "pin_code", "value": "678762"},
+					{"name": "state", "value": "Kerala"},
+					{"name": "country", "value": "India"}
+				],
+		"important_dates":[
+							{"name": "birthday", "day": 28, "month": 4, "year": 2003}
+						],
 		"website": "",
-		"social_accounts":{
-			"whatsApp": "9747238825",
-			"facebook": "Augustin PJ",
-			"yahoo": "",
-			"skype": ""
-		},
+		"social_accounts":[
+							{"name": "whatsApp", "account": "9474238825"},
+							{"name": "facebook", "account": "Augustin PJ"}
+						],
 		"notes": "Stay Safe"
 	},
 	{
@@ -64,52 +49,36 @@
 			"name_suffix": ""
 		},
 		"nickname": "Jijo",
-		"phone": {
-			"personal": "9747238825",
-			"home": "",
-			"work": "",
-			"custom": ""
-		},
-		"e_mail": {
-			"personal": "josephpa@gmail.com",
-			"home": "",
-			"work": "",
-			"custom": ""
-		},
+		"phone": [
+					{"name": "personal", "number": "9747238825"},
+					{"name": "home", "number": "9747238825"},
+					{"name": "work", "number": "9747238825"}
+				],
+		"e_mail": [
+					{"name": "personal", "mail": "augustinpj458@gmail.com"},
+					{"name": "home", "mail": "augustinpj458@gmail.com"}
+				],
 		"proffesion":{
-			"designation": "Farmer",
+			"designation": "Agriculture",
 			"department": "",
 			"company": ""
 		},
-		"address":{
-			"address_line_1": "Pulavelil House",
-			"address_line_2": "",
-			"city": "Mannarkkad",
-			"pin_code": "678762",
-			"state": "Kerala",
-			"country": "India"
-		},
-		"important_dates":{
-			"birthday": {
-				"day": 14,
-				"month": 11,
-				"year": 1976
-			},
-			"anniversary":{
-				"day": 7,
-				"month": 2,
-				"year": 2002
-			},
-			"custom": ""
-		},
+		"address":[
+					{"name": "address_line_1", "value": "Pulavelil House"},
+					{"name": "city", "value": "Mannarkkad"},
+					{"name": "pin_code", "value": "678762"},
+					{"name": "state", "value": "Kerala"},
+					{"name": "country", "value": "India"}
+				],
+		"important_dates":[
+							{"name": "birthday", "day": 4, "month": 11, "year": 1976},
+							{"name": "anniversary", "day": 7, "month": 2, "year": 2002}
+						],
 		"website": "",
-		"social_accounts":{
-			"whatsApp": "9995842373",
-			"facebook": "",
-			"yahoo": "",
-			"skype": ""
-		},
-		"notes": "Be Positive"
+		"social_accounts":[
+							{"name": "whatsApp", "account": "9995842373"}
+						],
+		"notes": "Be positive"
 	},
 	{
 		"name": {
@@ -119,164 +88,32 @@
 			"last_name": "Joseph",
 			"name_suffix": ""
 		},
-		"nickname": "",
-		"phone": {
-			"personal": "9544102373",
-			"home": "",
-			"work": "",
-			"custom": ""
-		},
-		"e_mail": {
-			"personal": "sofiyap@gmail.com",
-			"home": "",
-			"work": "",
-			"custom": ""
-		},
-		"proffesion":{
-			"designation": "House Wife",
-			"department": "",
-			"company": ""
-		},
-		"address":{
-			"address_line_1": "Pulavelil House",
-			"address_line_2": "",
-			"city": "Mannarkkad",
-			"pin_code": "678762",
-			"state": "Kerala",
-			"country": "India"
-		},
-		"important_dates":{
-			"birthday": {
-				"day": 17,
-				"month": 7,
-				"year": 1977
-			},
-			"anniversary":{
-				"day": 7,
-				"month": 2,
-				"year": 2002
-			},
-			"custom": ""
-		},
-		"website": "",
-		"social_accounts":{
-			"whatsApp": "",
-			"facebook": "",
-			"yahoo": "",
-			"skype": ""
-		},
-		"notes": "Love Eachother"
-	},
-	{
-		"name": {
-			"name_preffix": "",
-			"first_name": "Ajil",
-			"middle_name": "Tom",
-			"last_name": "P",
-			"name_suffix": ""
-		},
-		"nickname": "",
-		"phone": {
-			"personal": "8156940891",
-			"home": "",
-			"work": "",
-			"custom": ""
-		},
-		"e_mail": {
-			"personal": "ajiltom@gmail.com",
-			"home": "",
-			"work": "",
-			"custom": ""
-		},
+		"nickname": "Amma",
+		"phone": [
+					{"name": "personal", "number": "9995842373"},
+					{"name": "home", "number": "9747238825"}
+				],
+		"e_mail": [
+				],
 		"proffesion":{
 			"designation": "Student",
 			"department": "",
 			"company": ""
 		},
-		"address":{
-			"address_line_1": "Pulinilkumkalayil House",
-			"address_line_2": "",
-			"city": "palakkayam",
-			"pin_code": "678591",
-			"state": "Kerala",
-			"country": "India"
-		},
-		"important_dates":{
-			"birthday": {
-				"day": 23,
-				"month": 6,
-				"year": 2000
-			},
-			"anniversary":{
-				"day": "",
-				"month": "",
-				"year": ""
-			},
-			"custom": ""
-		},
+		"address":[
+					{"name": "address_line_1", "value": "Pulavelil House"},
+					{"name": "city", "value": "Mannarkkad"},
+					{"name": "pin_code", "value": "678762"},
+					{"name": "state", "value": "Kerala"},
+					{"name": "country", "value": "India"}
+				],
+		"important_dates":[
+							{"name": "birthday", "day": 17, "month": 7, "year": 1997},
+							{"name": "anniversary", "day": 7, "month": 2, "year": 2002}
+						],
 		"website": "",
-		"social_accounts":{
-			"whatsApp": "8156940891",
-			"facebook": "",
-			"yahoo": "",
-			"skype": ""
-		},
-		"notes": "Live in Peace"
-	},
-	{
-		"name": {
-			"name_preffix": "",
-			"first_name": "AnuMol",
-			"middle_name": "Tomy",
-			"last_name": "P",
-			"name_suffix": ""
-		},
-		"nickname": "",
-		"phone": {
-			"personal": "9207206371",
-			"home": "",
-			"work": "",
-			"custom": ""
-		},
-		"e_mail": {
-			"personal": "anumoltomy@gmail.com",
-			"home": "",
-			"work": "",
-			"custom": ""
-		},
-		"proffesion":{
-			"designation": "Nurse",
-			"department": "",
-			"company": ""
-		},
-		"address":{
-			"address_line_1": "Pulinilkumkalayil House",
-			"address_line_2": "",
-			"city": "palakkayam",
-			"pin_code": "678591",
-			"state": "Kerala",
-			"country": "India"
-		},
-		"important_dates":{
-			"birthday": {
-				"day": 28,
-				"month": 5,
-				"year": 1998
-			},
-			"anniversary":{
-				"day": "",
-				"month": "",
-				"year": ""
-			},
-			"custom": ""
-		},
-		"website": "",
-		"social_accounts":{
-			"whatsApp": "9207206371",
-			"facebook": "",
-			"yahoo": "",
-			"skype": ""
-		},
-		"notes": "Be Passionate"
+		"social_accounts":[
+						],
+		"notes": "Be Honest"
 	}
 ]
