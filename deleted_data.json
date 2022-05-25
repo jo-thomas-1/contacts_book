@@ -1,1 +1,152 @@
-[]
+[
+    {
+        "name": {
+            "name_preffix": "",
+            "first_name": "Joseph",
+            "middle_name": "Pulavelil",
+            "last_name": "Augustin",
+            "name_suffix": ""
+        },
+        "nickname": "Jijo",
+        "phone": [
+            {
+                "name": "personal",
+                "number": "9747238825"
+            },
+            {
+                "name": "home",
+                "number": "9747238825"
+            },
+            {
+                "name": "work",
+                "number": "9747238825"
+            }
+        ],
+        "e_mail": [
+            {
+                "name": "personal",
+                "mail": "augustinpj458@gmail.com"
+            },
+            {
+                "name": "home",
+                "mail": "augustinpj458@gmail.com"
+            }
+        ],
+        "proffesion": [
+            {
+                "name": "designation",
+                "value": "Farmer"
+            }
+        ],
+        "address": [
+            {
+                "name": "address_line_1",
+                "value": "Pulavelil House"
+            },
+            {
+                "name": "city",
+                "value": "Mannarkkad"
+            },
+            {
+                "name": "pin_code",
+                "value": "678762"
+            },
+            {
+                "name": "state",
+                "value": "Kerala"
+            },
+            {
+                "name": "country",
+                "value": "India"
+            }
+        ],
+        "important_dates": [
+            {
+                "name": "birthday",
+                "day": 4,
+                "month": 11,
+                "year": 1976
+            },
+            {
+                "name": "anniversary",
+                "day": 7,
+                "month": 2,
+                "year": 2002
+            }
+        ],
+        "website": "",
+        "social_accounts": [
+            {
+                "name": "whatsApp",
+                "account": "9995842373"
+            }
+        ],
+        "notes": "Be positive"
+    },
+    {
+        "name": {
+            "name_preffix": "",
+            "first_name": "Sofiya",
+            "middle_name": "Pulavelil",
+            "last_name": "Joseph",
+            "name_suffix": ""
+        },
+        "nickname": "Amma",
+        "phone": [
+            {
+                "name": "personal",
+                "number": "9995842373"
+            },
+            {
+                "name": "home",
+                "number": "9747238825"
+            }
+        ],
+        "e_mail": [],
+        "proffesion": [
+            {
+                "name": "designation",
+                "value": "House wife"
+            }
+        ],
+        "address": [
+            {
+                "name": "address_line_1",
+                "value": "Pulavelil House"
+            },
+            {
+                "name": "city",
+                "value": "Mannarkkad"
+            },
+            {
+                "name": "pin_code",
+                "value": "678762"
+            },
+            {
+                "name": "state",
+                "value": "Kerala"
+            },
+            {
+                "name": "country",
+                "value": "India"
+            }
+        ],
+        "important_dates": [
+            {
+                "name": "birthday",
+                "day": 17,
+                "month": 7,
+                "year": 1997
+            },
+            {
+                "name": "anniversary",
+                "day": 7,
+                "month": 2,
+                "year": 2002
+            }
+        ],
+        "website": "",
+        "social_accounts": [],
+        "notes": "Be Honest"
+    }
+]

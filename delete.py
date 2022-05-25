@@ -25,9 +25,13 @@ def delete_contact(contact_index):
 		# delete contact
 		temp_deleted_data = temp_data.pop(contact_index)
 
-		# write back to file
-		json_file.write('delete_data.json', temp_deleted_data)
+		# write back to main file
 		json_file.write('data.json', temp_data)
+
+		# write to delete database
+		temp_data = json_file.read('deleted_data.json')
+		temp_data.append(temp_deleted_data)
+		json_file.write('deleted_data.json', temp_data)
 
 		print(name, "has been deleted from contact book")
 		return 1
