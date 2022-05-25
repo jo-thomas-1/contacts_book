@@ -1,5 +1,6 @@
 import json
 import display
+import help
 
 data = ""
 with open('data.json', 'r') as json_file:
@@ -17,6 +18,9 @@ while(True):
 	# command analysis -----------------------------------------------------------------
 	if command[0] == "exit":
 		exit()
+
+	elif command[0] == "help":
+		help.display_all()
 
 	# display commands
 	elif command[0] == "display":
