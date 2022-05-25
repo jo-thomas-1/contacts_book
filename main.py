@@ -1,19 +1,9 @@
-import json
+import json_file
 import display
 import help
 import delete
 
-# function to read data and store to internal variable
-def read_data():
-	data = []
-	file = open('data.json', 'r')
-	with file as json_file:
-		data = json.load(json_file)
-	file.close()
-	return data
-
-
-data = read_data()
+data = json_file.read('data.json')
 
 while(True):
 	command = ""
@@ -52,7 +42,7 @@ while(True):
 			index = int(command[2]) - 1
 			if index < len(data):
 				delete.delete_contact(index)
-				data = read_data()
+				data = json_file.read('data.json')
 			else:
 				print("Please enter a valid serial number")
 

@@ -1,16 +1,11 @@
-import json
+import json_file
 
 # delete all contacts in list
 def delete_all():
 	confirm = input("Are you sure you want to delete all contacts from contact book [yes / no]: ").lower()
 	if confirm == "yes":
 		# write to file
-		file = open('data.json', 'w')
-		json_object = json.dumps([], indent = 4)
-
-		with file as json_file:
-			json_file.write(json_object)
-		file.close()
+		json_file.write('data.json', [])
 
 		print("All contacts are deleted")
 		return 1
@@ -19,13 +14,7 @@ def delete_all():
 
 # delete single contact in list
 def delete_contact(contact_index):
-	temp_data = []
-	
-	# read data from file
-	file = open('data.json', 'r')
-	with file as json_file:
-		temp_data = json.load(json_file)
-	file.close()
+	temp_data = json_file.read('data.json')
 
 	# retrive name
 	name = temp_data[contact_index]["name"]["name_preffix"] + " " + temp_data[contact_index]["name"]["first_name"] + " " + temp_data[contact_index]["name"]["middle_name"] + " " + temp_data[contact_index]["name"]["last_name"] + " " + temp_data[contact_index]["name"]["name_suffix"]
@@ -34,15 +23,10 @@ def delete_contact(contact_index):
 
 	if confirm == "yes":
 		# delete contact
-		temp_data.pop(contact_index)
+		temp_deleted_data = temp_data.pop(contact_index)
 
 		# write back to file
-		file = open('data.json', 'w')
-		json_object = json.dumps(temp_data, indent = 4)
-
-		with file as json_file:
-			json_file.write(json_object)
-		file.close()
+		json_file.write('data.json', temp_data)
 
 		print(name, "has been deleted from contact book")
 		return 1
