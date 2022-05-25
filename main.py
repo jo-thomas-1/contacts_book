@@ -1,10 +1,19 @@
 import json
 import display
 import help
+import delete
 
-data = ""
-with open('data.json', 'r') as json_file:
-	data = json.load(json_file)
+# function to read data and store to internal variable
+def read_data():
+	data = []
+	file = open('data.json', 'r')
+	with file as json_file:
+		data = json.load(json_file)
+	file.close()
+	return data
+
+
+data = read_data()
 
 while(True):
 	command = ""
@@ -19,6 +28,7 @@ while(True):
 	if command[0] == "exit":
 		exit()
 
+	# help commands
 	elif command[0] == "help":
 		help.display_all()
 
@@ -32,6 +42,20 @@ while(True):
 				display.display_contact(data[index])
 			else:
 				print("Please enter a valid serial number")
+
+	# delete commands
+	elif command[0] == "delete":
+		if command[1] == "contacts":
+			delete.delete_all()
+			data = []
+		elif command[1] == "contact":
+			index = int(command[2]) - 1
+			if index < len(data):
+				delete.delete_contact(index)
+				data = read_data()
+			else:
+				print("Please enter a valid serial number")
+
 
 	# command not found
 	else:
