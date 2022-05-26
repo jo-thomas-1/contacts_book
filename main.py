@@ -32,6 +32,16 @@ while(True):
 				display.display_contact(data[index])
 			else:
 				print("Please enter a valid serial number")
+		elif command[1] == "deleted":
+			if command[2] == "contacts":
+				display.display_all(json_file.read('deleted_data.json'))
+			elif command[2] == "contact":
+				deleted_data = json_file.read('deleted_data.json')
+				index = int(command[3]) - 1
+				if index < len(deleted_data):
+					display.display_contact(deleted_data[index])
+				else:
+					print("Please enter a valid serial number")
 
 	# delete commands
 	elif command[0] == "delete":
@@ -45,7 +55,6 @@ while(True):
 				data = json_file.read('data.json')
 			else:
 				print("Please enter a valid serial number")
-
 
 	# command not found
 	else:
