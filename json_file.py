@@ -9,6 +9,7 @@ def read(file_name):
 	file.close()
 	return data
 
+# function to write data to json file
 def write(file_name, data):
 	file = open(file_name, 'w')
 	json_object = json.dumps(data, indent = 4)

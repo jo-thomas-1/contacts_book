@@ -4,8 +4,15 @@ import json_file
 def delete_all():
 	confirm = input("Are you sure you want to delete all contacts from contact book [yes / no]: ").lower()
 	if confirm == "yes":
+		deleted_data = json_file.read('deleted_data.json')
+		data = json_file.read('data.json')
+
+		for contact in data:
+			deleted_data.append(contact)
+
 		# write to file
 		json_file.write('data.json', [])
+		json_file.write('deleted_data.json', deleted_data)
 
 		print("All contacts are deleted")
 		return 1

@@ -22,7 +22,7 @@ while(True):
 	elif command[0] == "help":
 		help.display_all()
 
-	# display commands
+	# ----- display commands -----
 	elif command[0] == "display":
 		if command[1] == "contacts":
 			display.display_all(data)
@@ -43,7 +43,7 @@ while(True):
 				else:
 					print("Please enter a valid serial number")
 
-	# delete commands
+	# ----- delete commands -----
 	elif command[0] == "delete":
 		if command[1] == "contacts":
 			delete.delete_all()
@@ -55,6 +55,26 @@ while(True):
 				data = json_file.read('data.json')
 			else:
 				print("Please enter a valid serial number")
+
+	# ----- restore commands -----
+	# restore deleted contacts
+	# restore deleted contact [index number]
+	elif command[0] == "restore":
+		if command[1] == "deleted":
+			if command[2] == "contacts":
+				deleted_data = json_file.read('deleted_data.json')
+				data = json_file.read('data.json')
+
+				for contact in deleted_data:
+					data.append(contact)
+
+				# write back to main file
+				json_file.write('data.json', data)
+
+				# write to delete database
+				json_file.write('deleted_data.json', [])
+
+				print("All deleted contacts have been restored")
 
 	# command not found
 	else:
