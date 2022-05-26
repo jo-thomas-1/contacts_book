@@ -59,5 +59,5 @@ Technology used: Python 3
 
 ## Authors
 
-- Augustin P J - [@augustinpj](https://github.com/augustinpj)
-- Jo Thomas - [@jothomas1996](https://github.com/jothomas1996)
+- Augustin P J (Developer) - [@augustinpj](https://github.com/augustinpj)
+- Jo Thomas (Mentor) - [@jothomas1996](https://github.com/jothomas1996)
